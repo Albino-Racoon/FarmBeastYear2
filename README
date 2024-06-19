@@ -1,0 +1,16 @@
+ROSCORE
+rakun@rakunComp:~/catkin_ws/src/farmbeast_simulation$ roscore
+
+----------------------------------->JSON
+
+1. zazeni poslusalca (JSON_poslusalec.py)
+ python3 JSON_polusalec.py
+
+2. zazeni publisherja (JSON_pub.py)
+python3 JSON_pub.py
+
+-------------------------------------> SERVER THING
+
+1. preddvajaj npr nek bag na topicu ( rostopic pub /topic_to_send std_msgs/String "data: 'Hello from ROS'")
+
+2. zazeni server (server_posiljatelj.py)

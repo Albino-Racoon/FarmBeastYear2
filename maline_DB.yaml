@@ -1,0 +1,6 @@
+names:
+  - zrela
+  - nezrela
+nc: 2
+train: C:/Users/jasar/Desktop/yolo_maline/obj
+val: C:/Users/jasar/Desktop/yolo_maline/obj
